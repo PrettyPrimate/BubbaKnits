@@ -1,0 +1,506 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background-image: url('Images/background.png');
+    background-size: 150% 150%;    
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    text-decoration:none;
+}
+
+img
+{  
+    border-style: none;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1100px;
+    background-color: #fff;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid #496077;
+    border-right: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: white;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 400px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color:white;
+    background-color:#d59caf;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:purple;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+    border:solid thin black;
+    width: 100%;
+    text-align:center;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    width:250px;
+    border:solid thin black;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: white;
+    color: purple;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align:center;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: white;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: white;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+
+/* Images   
+----------------------------------------------------------*/
+
+.slider{
+	width: 640px; /*Same as width of the large image*/
+	position: relative;
+	/*Instead of height we will use padding*/
+	padding-top: 320px; /*That helps bring the labels down*/
+	top: -100px;
+	margin: 100px auto;
+	
+	/*Lets add a shadow*/
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*Last thing remaining is to add transitions*/
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*Lets add some spacing for the thumbnails*/
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	
+	/*Default style = low opacity*/
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Time to add the click effects*/
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+/*Clicking any thumbnail now should change its opacity(style)*/
+/*Time to work on the main images*/
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/*That hides all main images at a 110% size
+On click the images will be displayed at normal size to complete the effect
+*/
+.slider input[name='slide_switch']:checked+label+img
+{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hometext
+{
+    position: relative;
+    top: -100px;
+    width: 640px;
+    left: -320px;
+    margin-left:50%;
+    text-align:center;
+}
+.aboutlink
+{
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    color: #696969;
+    text-decoration:none;
+}
+.aboutlink:hover
+{
+    text-decoration:underline;
+}
+.pricediv
+{
+    position:relative;
+    left:106px;
+    top:-71px;
+    color:#696969;
+    background-color:White;
+    width:50px;
+}
+.menubuttons
+{
+    border: 2px solid #d59caf;
+    color: #91b1bc;
+    background-color:White;
+    text-decoration:none;
+    display:block;
+    width:150px;
+    height:40px;
+    text-align:center;
+    padding-top:15px;
+    font-size:18px;
+}
+.menubuttons:hover
+{
+    cursor:hand;
+    cursor:pointer;
+    text-decoration:none;
+    border: 2px solid #91b1bc;
+    color: #d59caf;
+}
+.submitbutton
+{
+    border: 2px solid #d59caf;
+    color: #91b1bc;
+    text-decoration:none;
+    display:block;
+    width:150px;
+    height:40px;
+    text-align:center;
+    padding-top:15px;
+    font-size:18px;
+}
+.submitbutton:hover
+{
+    cursor:hand;
+    cursor:pointer;
+    text-decoration:none;
+    border: 2px solid #91b1bc;
+    color: #d59caf;
+}
+.emaillabel
+{
+    color:white;
+    text-decoration:none;
+}
+.emaillabel:hover
+{
+    text-decoration:underline;
+}
+.contactimage
+{
+    position:relative;
+    left:500px;
+    top: -380px;
+}
+.contactext
+{
+    width:500px;
+    display:block;
+}
+.contactdiv
+{
+    position:relative;
+    top: 10px;
+    text-align:center;
+    left:-50px;
+}
+.termslabel
+{
+    color:white;
+    text-decoration:none;
+}
+.termslabel:hover
+{
+    text-decoration:underline;
+}
+.itemdiv
+{
+    width: 275px;
+    height: 250px;
+    background-color: white;
+    border: 3px solid white;
+}
+.events
+{
+   
+}
+.eventdiv
+{
+    width: 600px;
+    height:300px;
+    position:relative;
+}
+.eventImg
+{
+    position:absolute;
+    top: 0px;
+    left:350px;
+}
+.eventText
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.eventdate
+{
+    font-size:20pt;
+}
+.eventtime
+{
+    font-size:18pt;
+}
+.eventurl
+{
+     font-size:16pt;
+}
+.eventadd
+{
+     font-size:18pt;
+}
+.eventimg
+{
+    height: 350px;
+}
+.HiddenColumn
+{
+    display:none;
+}

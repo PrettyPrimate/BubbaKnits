@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <item>
+    <title>Pink Booties</title>
+    <image>~/Images/Accessories/DSC_0025.JPG</image>
+    <colours>Pink</colours>
+    <sizes>0-3 years</sizes>
+    <price>£55.99</price>
+  </item>
+  <item>
+    <title>Green Booties</title>
+    <image>~/Images/Accessories/DSC_0018.JPG</image>
+    <colours>Pink</colours>
+    <sizes>0-3 years</sizes>
+    <price>£5.99</price>
+  </item>
+  <item>
+    <title>Blanket</title>
+    <image>~/Images/Accessories/DSC_0045.JPG</image>
+    <colours>Pink</colours>
+    <sizes>0-3 years</sizes>
+    <price>£5.00</price>
+  </item>
+  <item>
+    <title>Sleeping Bag</title>
+    <image>~/Images/Accessories/DSC_0398.JPG</image>
+    <colours>Pink</colours>
+    <sizes>0-3 years</sizes>
+    <price>£5.99</price>
+  </item>
+  <item>
+    <title>Another Blanket</title>
+    <image>~/Images/Accessories/DSC_0745.JPG</image>
+    <colours>Pink</colours>
+    <sizes>0-3 years</sizes>
+    <price>£5.99</price>
+  </item>
+</products>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <item>
+    <title>Some jumper</title>
+    <image>~/Images/Aran/DSC_0318.JPG</image>
+    <colours>yellow, blue, pink</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Another jumper</title>
+    <image>~/Images/Aran/DSC_0299.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Another jumper</title>
+    <image>~/Images/Aran/DSC_0359.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Hoody</title>
+    <image>~/Images/Aran/DSC_0427.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Jumper with buttons</title>
+    <image>~/Images/Aran/DSC_0757.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+</products>

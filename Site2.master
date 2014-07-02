@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Site2.master.vb" Inherits="Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Bubba Knits - Hand Knitted Baby Clothes</title>
+    <link href="Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.001)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.001)" />
+  
+ 
+</head>
+<body>
+    <form runat="server">
+    
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <table width="100%">
+                    <tr>
+                        <td align="left" valign="middle">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp <a href="Default.aspx" title="Bubba Knits" style="border: none;">
+                                <asp:Image ID="Image3" runat="server" Width="300px" ImageUrl="~/Images/bubbaknits-logo.jpg"
+                                    AlternateText="Bubba Knits" />
+                            </a>
+                        </td>
+                        <td align="center">
+                    <a href="Content/Default.aspx" title="Items">
+                            <asp:Label ID="Label2" runat="server" CssClass="menubuttons">Items</asp:Label>
+                        </a>
+                          <a href="Content/Events.aspx" title="Events">
+                            <asp:Label ID="Label1" runat="server" CssClass="menubuttons">Events</asp:Label>
+                        </a>
+                        </td>
+                       
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="main">
+                             <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+              
+                
+           
+        </div>
+       
+        <div class="clear">
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>

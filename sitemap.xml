@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.bubbaknits.co.uk/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Default.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/About.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Girls.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Boys.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+  <url>
+    <loc>http://www.bubbaknits.co.uk/New_Born.aspx</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Aran.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Sets.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Accessories.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Contact.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.bubbaknits.co.uk/Terms-and-conditions.aspx</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

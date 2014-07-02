@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <item>
+    <title>Some jumper</title>
+    <image>~/Images/Boys/DSC_0203.JPG</image>
+    <colours>yellow, blue, pink</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Stripey jumper</title>
+    <image>~/Images/boys/DSC_0251.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+
+</products>

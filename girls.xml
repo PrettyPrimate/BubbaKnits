@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <item>
+    <title>Some jumper</title>
+    <image>~/Images/girls/DSC_0141.JPG</image>
+    <colours>yellow, blue, pink</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Another jumper</title>
+    <image>~/Images/girls/DSC_0198.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Flower jumper</title>
+    <image>~/Images/girls/DSC_0218.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Pink jumper</title>
+    <image>~/Images/girls/DSC_0249.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Yellow jumper</title>
+    <image>~/Images/girls/DSC_0259.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Pink jumper</title>
+    <image>~/Images/girls/DSC_0280.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+</products>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <item>
+    <title>Sleep jumper</title>
+    <image>~/Images/unisex/DSC_0033.JPG</image>
+    <colours>yellow, blue, pink</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+  <item>
+    <title>Sparkly jumper</title>
+    <image>~/Images/unisex/DSC_0191.JPG</image>
+    <colours>yellow</colours>
+    <sizes>0-3 years</sizes>
+  </item>
+
+</products>

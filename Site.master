@@ -1,0 +1,180 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Site.Master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Bubba Knits - Hand Knitted Baby Clothes</title>
+    <link href="Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.001)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.001)" />
+    <meta name="google-site-verification" content="5p9X52WYwtaQtV06hHPV66i3O7_KtXwRScPylxN6jl4" />
+    <script type="text/javascript" language="javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-11527359-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+   
+    </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+</script>
+
+    <form runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <table width="100%">
+                    <tr>
+                        <td align="left" valign="middle">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp <a href="Default.aspx" title="Bubba Knits" style="border: none;">
+                                <asp:Image ID="Image3" runat="server" Width="400px" ImageUrl="~/Images/bubbaknits-logo.jpg"
+                                    AlternateText="Bubba Knits" />
+                            </a>
+                        </td>
+                        <td align="center">
+                            <%--<div class="contactdiv">--%>
+                              <%--  <a href="http://www.facebook.com/pages/Bubba-Knits/236839809719891" title="Bubba Knits Facebook"
+                                    target="_blank" style="border: 0; text-decoration: none">
+                                    <asp:Image ID="Image5" runat="server" ToolTip="Like us on Facebook" Height="50px"
+                                        Width="50px" ImageUrl="~/Images/f_logo.png" />
+                                </a>
+                                &nbsp&nbsp
+                                <a href="http://www.twitter.com/bubba_knits" title="Bubba Knits Twitter" target="_blank"
+                                    style="border: 0; text-decoration: none">
+                                    <asp:Image ID="Image6" runat="server" ToolTip="Follow us on Twitter" Height="50px"
+                                        Width="50px" ImageUrl="~/Images/t_logo.png" />
+                                </a>--%>
+                                <div class="fb-like-box" data-href="https://www.facebook.com/pages/Bubba-Knits/236839809719891" data-width="315" data-height="160"
+                                data-show-faces="false" data-stream="true" data-show-border="true" data-header="false" ></div>
+                               
+                           <%-- </div>--%>
+                        </td>
+                        <td align="right" valign="middle">
+                            <asp:Image ID="Image2" runat="server" ImageUrl="images/heart.jpg" Height="180px"
+                                AlternateText="Bubba Knits" />
+                            &nbsp&nbsp&nbsp&nbsp&nbsp
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%">
+                <tr>
+                    <td valign="top" align="center" style="width: 200px;">
+                        <a href="Default.aspx" title="Bubba Knits">
+                            <asp:Label ID="Label1" runat="server" CssClass="menubuttons">Home</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="About.aspx" title="About">
+                            <asp:Label ID="Label5" runat="server" CssClass="menubuttons">About</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Girls.aspx" title="Girls">
+                            <asp:Label ID="Label6" runat="server" CssClass="menubuttons">Girls</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Boys.aspx" title="Boys">
+                            <asp:Label ID="Label7" runat="server" CssClass="menubuttons">Boys</asp:Label>
+                        </a>
+                          <div style="height: 5px">
+                        </div>
+                        <a href="New_Born.aspx" title="New Born">
+                            <asp:Label ID="Label4" runat="server" CssClass="menubuttons">New Born</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Aran.aspx" title="Aran">
+                            <asp:Label ID="Label8" runat="server" CssClass="menubuttons">Aran</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Sets.aspx" title="Sets">
+                            <asp:Label ID="Label9" runat="server" CssClass="menubuttons">Sets</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Accessories.aspx" title="Accessories">
+                            <asp:Label ID="Label10" runat="server" CssClass="menubuttons">Accessories</asp:Label>
+                        </a>
+                         <div style="height: 5px">
+                        </div>
+                         <a href="Christmas.aspx" title="Christmas">
+                            <asp:Label ID="Label2" runat="server" CssClass="menubuttons">Christmas</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                         <a href="Events.aspx" title="Events">
+                            <asp:Label ID="eventsLabel" runat="server" CssClass="menubuttons">Events</asp:Label>
+                        </a>
+                        <div style="height: 5px">
+                        </div>
+                        <a href="Contact.aspx" title="Contact">
+                            <asp:Label ID="contactLabel" runat="server" CssClass="menubuttons">Contact</asp:Label>
+                        </a>
+                    </td>
+                    <td valign="top" style="width: 900px">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td align="center">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/needles-and-wool.jpg" AlternateText="Knitted"
+                            Width="600px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <%--    <div>
+        <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/hearts.jpg" Width="200px" AlternateText="Knitted Hearts" />
+        </div>--%>
+        <div class="clear">
+        </div>
+        <div class="footer">
+            <table width="100%">
+                <tr>
+                    <td align="left" style="width: 33%">
+                        <asp:Label ID="Label3" runat="server" Font-Size="8pt">© Copyright Bubba Knits 2011</asp:Label>
+                    </td>
+                    <td align="center" style="width: 34%">
+                        <a href="Terms-and-conditions.aspx" title="Terms & Conditions">
+                            <asp:Label ID="Label12" runat="server" CssClass="termslabel">Terms and Conditions</asp:Label>
+                        </a>
+                    </td>
+                    <td align="right" style="width: 33%">
+                        <a href="mailto:info@bubbaknits.co.uk" title="Bubba Knits">
+                                    <asp:Label ID="Label13" runat="server" CssClass="emaillabel">info@bubbaknits.co.uk</asp:Label>
+                                </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
